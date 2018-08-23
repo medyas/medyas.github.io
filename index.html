@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<title>Profile</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<meta http-equiv="Cache-Control" content="public, max-age=86400">
+
+	<link rel="stylesheet" async href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" async integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" async integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>-->
+<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" async integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="static/index.css">
+	<script async defer type="text/javascript" src="static/index.js"></script>
+</head>
+<body>
+	<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-lg">
+	    <div class="modal-content">
+	    	<div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Sign in</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+	    </div>
+	  </div>
+	</div>
+	<header>
+		<div id="profile" class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-8">
+			<div id="profile-img" class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+				<img  src="static/profile-pic.jpg" alt="profile picture"><br>
+				<span></span>
+			</div>
+			<div id="profile-info" class="col-12 col-sm-7 col-md-6 col-lg-6 col-xl-6">
+				<div id="info" >
+					<div id="name">
+						<p id="en-name">Mohamed Yassine Sabri</p>
+					</div>
+					<div id="job">
+						<p id="en-job">Electrical Engineering Student</p>
+					</div>
+					<div id="summary">
+						<p>I am an Electrical Engineering student, majored in Automation and Industrial Computing. Passionate about computer science, and got experience in both web and android development.</p>
+						<p>Location: <a href="https://goo.gl/maps/soSpzD4yxtq"><i class="fas fa-map-marker"></i> Tunis, Tunisia</a></p>
+					</div>
+					<div id="contact">
+						<a id="card" href="#" data-toggle="modal" data-target=".bd-example-modal-lg" target="_blank" ><i class="fas fa-address-card fa-2x"></i></a>
+						<a id="email" href="mailto:medyassinesabri@gmail.com"><i class="fas fa-envelope-square fa-2x"></i></a>
+						<a id="website" href="https://medyas.ml"><i class="fas fa-globe fa-2x"></i></a>
+						<a id="linkedin" href="https://www.linkedin.com/in/medyas/" target="_blank" ><i class="fab fa-linkedin fa-2x"></i></a>
+						<a id="github" href="https://github.com/medyas" target="_blank" ><i class="fab fa-github-square fa-2x"></i></a>
+						<a id="twitter" href="https://twitter.com/_med_yas" target="_blank" ><i class="fab fa-twitter-square fa-2x"></i></a>
+						<a id="google" href="https://plus.google.com/u/0/115400625568146662910" target="_blank" ><i class="fab fa-google-plus-square fa-2x"></i></a>
+						<a id="facebook" href="https://www.facebook.com/medyas.sabri" target="_blank" ><i class="fab fa-facebook-square fa-2x"></i></a>
+					</div>
+				</div>
+			</div>
+			<div id="main-menu">
+				<div id="show-menu">
+					<i class="fas fa-ellipsis-v"></i>
+				</div>
+				<div id="menu">
+					<ul>
+						<li><a href="https://medyas.ml"><img src="static/profile-pic.jpg" alt="profile picture" width="40px" height="40px" style="border-radius: 25px; border: 2px solid white;"></a></li>
+						<li><a href="#profile"><i class="fas fa-window-restore"></i></a></li>
+						<li><a href="#experience"><i class="fas fa-briefcase"></i></a></li>
+						<li><a href="#education"><i class="fas fa-graduation-cap"></i></a></li>
+						<li><a href="#awards"><i class="fas fa-certificate"></i></a></li>
+						<li><a href="#skills"><i class="fas fa-tasks"></i></a></li>
+						<li><a href="#projects"><i class="fas fa-code"></i></a></li>
+					</ul>
+					<span><i id="hide-menu" class="fas fa-angle-double-right"></i></span>
+				</div>
+				<div id="custom"></div>
+			</div>
+		
+		</div>
+	</header>
+	<section>
+		<div class="col-11 col-sm-10 col-md-8 col-lg-6 col-xl-6" id="sections">
+			<div class="section" id="experience">
+				 <div class="timeline">
+				  <div class="container left">
+				    <div class="content">
+				      <h2>2017</h2>
+				      <p>Lorem ipsum..</p>
+				    </div>
+				  </div>
+				  <div class="container right">
+				    <div class="content">
+				      <h2>2016</h2>
+				      <p>Lorem ipsum..</p>
+				    </div>
+				  </div>
+				</div> 
+			</div>
+			<div class="section" id="education"></div>
+			<div class="section" id="awards"></div>
+			<div class="section" id="skills"></div>
+			<div class="section" id="projects"></div>
+
+		<i class="fas fa-window-restore"></i>
+		<i class="fas fa-certificate"></i>
+		<i class="fas fa-graduation-cap"></i>
+		<i class="fas fa-building"></i>
+		<i class="fas fa-tasks"></i>
+		<i class="fas fa-code"></i>
+		<i class="fab fa-css3-alt"></i>
+		<i class="fab fa-html5"></i>
+		<i class="fab fa-python"></i>
+		<i class="fab fa-js-square"></i>
+		<i class="fab fa-android"></i>
+		<i class="fab fa-php"></i>
+
+		</div>
+
+
+	</section>
+	<footer>
+		<i class="fas fa-copyright"></i>
+		<p id="ar-name">محمد ياسين الصابري</p>
+		<p id="ar-job">طالب هندسة كهربائية</p>
+	</footer>
+</body>
+</html>
