@@ -149,7 +149,7 @@ ul.agileits-address-text li span {
 .w3-banner-img {
   border: 5px solid rgba(238, 238, 238, 0.53);
     width: 400px;
-    height: 400px;
+    height: 450px;
     padding: 63px;
     margin: 0 auto;
 }
@@ -1419,7 +1419,7 @@ h4.modal-title {
 }
 @media(max-width:1280px){
 	.w3-banner-top {
-    background: url(../images/lamp-3489395_1920.jpg) no-repeat -194px 0px;
+    background: url(../images/lamp-3489395_1920.jpg) no-repeat ;
     background-size: cover;
 	}
 }
@@ -1450,7 +1450,7 @@ h4.modal-title {
     height: 210px;
 	}
 	.w3-banner-top {
-    background: url(../images/ban6666.jpg) no-repeat -376px 0px;
+    background: url(../images/lamp-3489395_1920.jpg) no-repeat ;
     background-size: cover;
 	}
 	.w3-edu-info2 h3 {
@@ -1540,14 +1540,14 @@ h4.modal-title {
 @media(max-width:800px){
 	.w3-banner-img {
     width: 350px;
-    height: 350px;
+    height: 400px;
     margin:0;
 	}
 	.w3-banner-img h3 {
     font-size: 2.3em;
 	}
 	.w3-banner-top {
-    background: url(../images/ban6666.jpg) no-repeat -637px 0px;
+    background: url(../images/lamp-3489395_1920.jpg) no-repeat ;
     background-size: cover;
 	}
 	.w3-edu-grid-left {
@@ -1592,7 +1592,7 @@ h4.modal-title {
 @media(max-width:667px){
 	.w3-banner-img {
     width: 290px;
-    height: 290px;
+    height: 350px;
     margin: 0;
 	}
 	.w3-banner-img h3 {
@@ -1637,14 +1637,14 @@ h4.modal-title {
     padding: 7em 0 0 0;
 	}
 	.w3-banner-top {
-    background: url(../images/ban6666.jpg) no-repeat -739px 0px;
+    background: url(../images/lamp-3489395_1920.jpg) no-repeat ;
     background-size: cover;
 	}
 }
 @media(max-width:600px){
 	.w3-banner-img {
     width: 257px;
-    height: 257px;
+    height: 330px;
 	}
 	.w3-banner-img {
     padding: 22px;
@@ -1656,7 +1656,7 @@ h4.modal-title {
     margin: 1em;
 	}
 	.w3-banner-top {
-    background: url(../images/ban6666.jpg) no-repeat -834px 0px;
+    background: url(../images/lamp-3489395_1920.jpg) no-repeat ;
     background-size: cover;
 	}
 	.w3-about-grid-left2 h4 {
@@ -1769,7 +1769,7 @@ h4.modal-title {
     padding: 13px 0px;
 	}
 	.w3-banner-top {
-    background: url(../images/ban6666.jpg) no-repeat -1005px 0px;
+    background: url(../images/lamp-3489395_1920.jpg) no-repeat;
     background-size: cover;
 	}
 	.title-w3ls h4, .w3ls-heading h3, .w3-gallery-head h3, .w3-about-head h3 {
