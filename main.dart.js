@@ -37525,7 +37525,7 @@ $.Uk=r.a
 $.Uj=r.b
 return new M.oz(M.jI(s,new V.o1(new F.Nc(this,a),s),s,s,C.qh,s,s,s,s),s)},
 B6:function(a){var t=null
-return new T.f8(C.nm,E.Tg(C.j,new U.n9(M.Uc(t,t,new D.kg("/assets/"+H.a(J.T(a,"icon"))+".svg",1)),36,36,t),!1,new F.Na(this,a)),t)},
+return new T.f8(C.nm,E.Tg(C.j,new U.n9(M.Uc(t,t,new D.kg("/assets/assets/"+H.a(J.T(a,"icon"))+".svg",1)),36,36,t),!1,new F.Na(this,a)),t)},
 iC:function(a){return this.Ed(a)},
 Ed:function(a){var t=0,s=P.af(u.z)
 var $async$iC=P.a9(function(b,c){if(b===1)return P.ac(c,s)
