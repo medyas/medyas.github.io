@@ -8,7 +8,7 @@
     "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
-    "allow_access": false,
+    "allow_access": true,
     "icons": [
         {
             "src": "icons/Icon-192.png",
